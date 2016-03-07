@@ -4,6 +4,7 @@
       "date": "2-28-2016",
       "city": "Jurupa Valley",
       "state": "California",
+      "location": { "lat": 33.996313, "lng": -177.482179 },
       "killed": 1,
       "injured": 3,
       "summary": "At 2:00 AM police responded to reports of a shooting in a restaurant parking lot, where they found four men suffering from gunshot wounds. All were taken to local hospitals for treatment, where one later died. The shooter remained unidentified and unfound at the time of reporting."
@@ -12,6 +13,7 @@
       "date": "2-28-2016",
       "city": "Detroit",
       "state": "Michigan",
+      "location": { "lat": 42.336893, "lng": -83.047714 },
       "killed": 5,
       "injured": 5,
       "summary": "After reportedly inappropriately touching a 37-year-old female dancer at the Penthouse Lounge strip club, a patron got into an altercation with staff, briefly left, then returned with a firearm and started shooting at people in the parking lot at about 11:20 PM. The dancer was grazed, requiring no hospitalization, but a 29-year-old man, a 52-year-old man, and two 37-year-old men were also shot and hospitalized—it's unclear if they were patrons, employees, or random passers-by. The shooter, described as a six-foot-four-inch black man around 260 pounds with an afro, beard, and moustache dressed in all black, fled the scene on foot and remained at large at the time of reporting."
@@ -20,6 +22,7 @@
       "date": "2-27-2016",
       "city": "Woodbridge",
       "state": "Virginia",
+      "location": { "lat": 38.660669, "lng": -77.249320 },
       "killed": 2,
       "injured": 2,
       "summary": "After a lengthy domestic dispute, 32-year-old Army staff sergeant Ronald Williams Hamilton allegedly shot his 29-year-old wife Crystal Hamilton to death in their home—but not before she called the police at about 5:30 PM. When Prince William County Police arrived at 5:40, Hamilton opened fire on them from his door, hitting three officers before being subdued. 31-year-old officers Jesse Hempen and 33-year-old David McKeown are said to be recovering in an area hospital, but 28-year-old Ashley Guindon, who was sworn into the force a day earlier and out on her first patrol, succumbed during treatment."
@@ -28,6 +31,7 @@
       "date": "2-26-2016",
       "city": "Belfair",
       "state": "Washington",
+      "location": { "lat": 47.451639, "lng": -122.829289 },
       "killed": 4,
       "injured": 0,
       "summary": "A man called the police at9:37 AM local timetosayhe'd shot his wife, two children, and another person, prompting authorities to surround his rural home. After about three hours of negotiation, the shooter, who'd had a handgun to his own head, came out and shot himself dead in front of first responders, allowing a SWAT team to enter his property at around 1 PM. Inside, they found four people shot dead. (The shooting may have occurred the previous night, when neighbors say they heard what they thought was target practice gunfire.) A child was found outside and taken to a hospital for evaluation, but it's unclear if they were shot or directly involved in the incident."
@@ -36,6 +40,7 @@
       "date": "2-25-2016",
       "city": "Hesston",
       "state": "Kansas",
+      "location": { "lat": 38.141918, "lng": -97.428211 },
       "killed": 3,
       "injured": 12,
       "summary": "A man law enforcement sources are identifying as 38-year-old Cedric Ford allegedly went on a shooting spree at about 4:40 PM local time, opening fire in three places before entering Excel Industries, a lawn mower manufacturer where he worked as a painter. Armed with a handgun and a long rifle believed by witnesses to be an AK-47, Ford opened fire, killing three workers and wounding 12 more before a responding officer shot and killed him between 5:30 and 5:45 PM, according to local police."
@@ -44,6 +49,7 @@
       "date": "2-23-2016",
       "city": "Daytona Beach",
       "state": "Florida",
+      "location": { "lat": 29.202018, "lng": -81.030014 },
       "killed": 0,
       "injured": 4,
       "summary": "Just after 11:00 PM, police responded to a shooting on a residential street, observing shell casings and bullet holes in cars, but no victims. Bystanders then told police that 25-year-old Ronald Williams (shot through his left leg and right calf) and 18-year-old Jnya Payne (shot in her pelvis, left leg, and twice in her right leg) had taken themselves to the hospital. They also later learned that two shooting victims showed up at a nearby community center minutes later, 18-year-old Mercedes McMillian (shot in both legs) and 14-year-old Ahlonnea Matthews (shot in her upper left arm). None of the victims' injuries were considered life-threatening."
@@ -52,6 +58,7 @@
       "date": "2-23-2016",
       "city": "Phoenix",
       "state": "Arizona",
+      "location": { "lat": 33.457424, "lng": -112.072897 },
       "killed": 4,
       "injured": 0,
       "summary": "At 4:45 AM, a woman reported a shooting in her home, and police arrived at the house soon after to find it on fire—and a man firing from a second-floor window at first responders. By 7 AM, after two fires had broken out along with several bouts of shooting, police were indicating that the shooter was down—although it remains unclear if he was shot by police or killed himself. By 7:30, the flames were under control, and police found three people, including the shooter, shot dead inside; the presumed initial caller—a 20-year-old woman who reportedly indicated the shooter was her brother—and an eight-to-12-year-old girl were hospitalized, but succumbed to gunshot wounds."
@@ -60,6 +67,7 @@
       "date": "2-21-2016",
       "city": "Houston",
       "state": "Texas",
+      "location": { "lat": 29.769201, "lng": -95.373854 },
       "killed": 0,
       "injured": 5,
       "summary": "At around 9 PM a woman reported a drive-by shooting on a residential street. Both she and her three-to-four-month-old had been wounded and were taken to the hospital. Police later found shell casings and three more wounded men at the shooting site. Reports described the at-large shooters as black males who fired in two waves and whom police suspect may have been in a dark SUV and white Ford F-350 pickup that sped away from the scene soon after the shooting."
@@ -68,6 +76,7 @@
       "date": "2-21-2016",
       "city": "Hazelwood",
       "state": "Missouri",
+      "location": { "lat": 38.789145, "lng": -90.379434 },
       "killed": 1,
       "injured": 3,
       "summary": "At about 2:00 AM, hospital staff alerted police that they'd just received four gunshot victims: a 37-year-old woman who later died of her wounds, and another woman and two men in their 20s and 30s who have since stabilized. Police believe they were shot while in a moving car on the interstate when another vehicle (believed to be a black Mercedes stolen in nearby Sauget, Illinois) pulled up beside them and opened fire. The car was later found abandoned, and the assailants remain at large."
@@ -76,6 +85,7 @@
       "date": "2-20-2016",
       "city": "Oshtemo",
       "state": "Michigan",
+      "location": { "lat": 42.282524, "lng": -85.679481 },
       "killed": 4,
       "injured": 1,
       "summary": "Shortly before 10:30 PM, a man fired at a group of people in two cars outside a Cracker Barrel restaurant, killing four women and critically wounding a 14-year-old girl. This shooting was just the one of four in an apparent spree in the greater Kalamazoo area that started at about 6 PM and killed two others (a father and his teenage son) at a car dealership, and wounded a woman in a townhouse complex parking lot. Police arrested 45-year-old Uber driver James Dalton in connection with the seemingly random crimes—which were reportedly executed soon after a fare abandoned and reported the man for reckless and erratic behavior—at around 12:40 AM Sunday."
@@ -84,6 +94,7 @@
       "date": "2-20-2016",
       "city": "Iuka",
       "state": "Mississippi",
+      "location": { "lat": 34.812462, "lng": -88.191821 },
       "killed": 1,
       "injured": 3,
       "summary": "Police responding to a domestic incident call at a rural home Friday found themselves in a six-hour standoff with 45-year-old Charles Lee Lambert, who they said holed up in his house with his wife and ten-year old daughter. At 12:30 AM Saturday, a local SWAT team stormed the house, and Lambert opened fire, killing 44-year-old Bureau of Narcotics Agent James Lee Tartt and wounding three other officers before being shot and killed himself. Two of the officers' wounds were not life-threatening and the third was said to be in stable condition."
@@ -92,6 +103,7 @@
       "date": "2-20-2016",
       "city": "Orlando",
       "state": "Florida",
+      "location": { "lat": 28.546259, "lng": -81.344938 },
       "killed": 0,
       "injured": 4,
       "summary": "Just before 9 PM, police responded to an apparently robbery-related shooting at the local S&W Food Store where they found four people suffering from gunshot wounds. They later detained a suspect, stopped nearby in an SUV, for questioning."
@@ -100,6 +112,7 @@
       "date": "2-20-2016",
       "city": "Bessemer",
       "state": "Alabama",
+      "location": { "lat": 33.401669, "lng": -86.954078 },
       "killed": 1,
       "injured": 3,
       "summary": "An argument between people drinking in a vacant lot escalated when two individuals pulled guns and fired at the others. Police responding at around 5:30 PM found four people hit; a 37-year-old man shot in the head died during treatment, while a 28-year-old, 37-year-old, and 45-year-old man are still recovering. The shooters remain, as of the latest reporting, at large."
@@ -108,6 +121,7 @@
       "date": "2-20-2016",
       "city": "Tampa",
       "state": "Florida",
+      "location": { "lat": 27.961633, "lng": -82.442533 },
       "killed": 1,
       "injured": 3,
       "summary": "During a scuffle in a crowd of about 50 people outside a hookah bar at about 4:15 AM, someone retrieved a gun from a car and fired about ten shots. The unidentified shooter hit four people, killing a 29-year-old man and wounding a 20-year-old man, a 22-year-old man, and a 33-year-old woman. The injured are recovering in area hospitals."
@@ -116,6 +130,7 @@
       "date": "2-19-2016",
       "city": "Vallejo",
       "state": "California",
+      "location": { "lat": 38.106932, "lng":  -122.254009},
       "killed": 1,
       "injured": 3,
       "summary": "At just after 3:50 PM, police responded to reports of a shooting in which a pair of assailants in a maroon sedan drove up to a parked Monte Carlo in a residential neighborhood and opened fire. The shooters hit two adult men, killing one, and also struck an adult woman in the hand and a nine-year-old child in the head; the three survivors are receiving treatment and expected to live."
@@ -124,6 +139,7 @@
       "date": "2-14-2016",
       "city": "Houston",
       "state": "Texas",
+      "location": { "lat": 29.769201, "lng": -95.373854 },
       "killed": 0,
       "injured": 4,
       "summary": "Around 6:30 AM, a club fight escalated when a man got a gun out of his car and fired at others in the parking lot. He hit three women and one male bouncer, the latter of whom, while taking a shot to the leg, returned fire and hit the assailant. An unknown driver took the initial shooter away before the police arrived, but within the day he turned up at and died in an area hospital."
@@ -132,6 +148,7 @@
       "date": "2-14-2016",
       "city": "Union",
       "state": "Alabama",
+      "location": { "lat": 32.987235, "lng": -87.910388 },
       "killed": 0,
       "injured": 5,
       "summary": "Few details have emerged thus far, but a shooting between 1 and 2 AM at a nightspot called Howard's in this small Greene County town reportedly left three women and two men injured. Police have yet to make any arrests or release any information about the shooter(s), and at least two victims remained hospitalized as of Sunday."
@@ -140,6 +157,7 @@
       "date": "2-13-2016",
       "city": "Marrero",
       "state": "Louisiana",
+      "location": { "lat": 29.898125, "lng": -90.105198 },
       "killed": 0,
       "injured": 4,
       "summary": "At about 11:30 PM, a shooting was reported at a 17-year-old's birthday party. Based on the location of 18 shell casings, police believe several as-yet unidentified assailants pulled up across from the rental hall in a car, stepped into the street, and fired into the building multiple times, striking four of the 25 or so teens in attendance before fleeing. One 15-year-old boy was hit in the back of the neck and another in his lower left leg, while a 16-year-old boy was struck in the right knee and a 16-year-old girl took a bullet to her right cheek. None of the injuries appeared to be life-threatening."
@@ -148,6 +166,7 @@
       "date": "2-7-2016",
       "city": "Chicago",
       "state": "Illinois",
+      "location": { "lat": 41.882734, "lng": -87.623672 },
       "killed": 0,
       "injured": 4,
       "summary": "Two men in black are said to have walked up to a group of teens sitting on a porch in the Englewood neighborhood at about 5:50 PM local time and opened fire. Before fleeing in a grey GMC Yukon, the shooters struck one 15-year-old boy in the chest and both legs, another 15-year-old boy and a 17-year-old girl, both in the left leg, and an 18-year-old man in the right leg."
@@ -156,6 +175,7 @@
       "date": "2-7-2016",
       "city": "Pass Christian",
       "state": "Mississippi",
+      "location": { "lat": 30.319696, "lng": -89.247533 },
       "killed": 2,
       "injured": 4,
       "summary": "Shots were reportedly fired on a street corner just after the St. Paul Carnival Association's local Mardi Gras parade. Police have not released any information about the shooter(s) and no arrests have been made, but 29-year-old Carlos Bates and 43-year-old Isaiah Major III were shot, while four others were hospitalized with gunshot wounds."
@@ -164,6 +184,7 @@
       "date": "2-7-2016",
       "city": "Orlando",
       "state": "Florida",
+      "location": { "lat": 28.546259, "lng": -81.344938 },
       "killed": 2,
       "injured": 9,
       "summary": "A shooting broke out in a local nightclub at around 2 AM. There were some 300 people—including three off-duty cops hired as extra security—in the venue at the time, and one person died at the site with another succumbing at the hospital. Nine other people sustained gunshot wounds, one of them critical, while at least one more person was injured trying to escape the club. No details have been released about the shooters, but initial reports suggest that at least three individuals are being sought."
@@ -172,6 +193,7 @@
       "date": "2-7-2016",
       "city": "Rochester",
       "state": "New York",
+      "location": { "lat": 43.168419, "lng": -77.605862 },
       "killed": 1,
       "injured": 7,
       "summary": "A roughly 2 AM shooting at a night club left a 29-year-old man dead at the scene and wounded one 16-year-old boy, one 25-year-old woman, and five other men aged 21 to 30. Police have yet to release any of the victims' names or information on the unknown shooter(s)."
@@ -180,6 +202,7 @@
       "date": "2-6-2016",
       "city": "Los Angeles",
       "state": "California",
+      "location": { "lat": 34.034975, "lng": -118.245569 },
       "killed": 1,
       "injured": 3,
       "summary": "County Sheriffs responded to reports of a shooting a bit before 9 PM to find four gunshot victims. One man, described by the cops as a 'male Hispanic adult,' was dead on site from multiple shots to the torso, while two men and a teenage girl all sustained minor injuries. The police have not yet made arrests or issue information about the possible shooter(s)."
@@ -188,6 +211,7 @@
       "date": "2-6-2016",
       "city": "Apopka",
       "state": "Florida",
+      "location": { "lat": 28.690596, "lng": -81.529783 },
       "killed": 0,
       "injured": 4,
       "summary": "Although police responding to a roughly 1 AM shooting found no one on site, soon after four people checked themselves into an area hospital with gunshot wounds. The circumstances of the shooting remain unclear, as do the identities of the likely victims."
@@ -196,6 +220,7 @@
       "date": "2-6-2016",
       "city": "Tampa",
       "state": "Florida",
+      "location": { "lat": 27.961633, "lng": -82.442533 },
       "killed": 2,
       "injured": 6,
       "summary": "At about 2 AM, a shooting broke out at Club Rayne, a local strip club. The shooter(s) remain unknown, and the local branch of Crime Stoppers has issued a $3,000 reward for information on them. Meanwhile, police confirmed that one unidentified individual was killed on scene, while three women and four men suffered a variety of wound. One man eventually succumbed to his injuries at a local hospital."
@@ -204,6 +229,7 @@
       "date": "2-3-2016",
       "city": "Washington",
       "state": "District of Columbia",
+      "location": { "lat": 38.897457, "lng": -77.032764 },
       "killed": 0,
       "injured": 4,
       "summary": "After a shooting call came in from Southeast DC shortly before 9 PM, police arrived at 16th and Butler streets to find two men, a boy, and a girl suffering from gunshot wounds, apparently to their extremities. They were all taken to the hospital, and initial reports suggested the injuries were not life-threatening."
