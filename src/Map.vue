@@ -62,7 +62,6 @@
 	      })
 	      .then((topoStates) => {
 	      	const states = topojson.feature(topoStates, topoStates.objects.state);
-	      	console.log(states);
 	      	const reds = ["#fee5d9", "#fcbba1", "#fc9272", "#fb6a4a", "#de2d26", "#a50f15"];
 	      	const oranges = ["#feedde", "#fdd0a2", "#fdae6b", "#fd8d3c", "#e6550d", "#a63603"];
 	      	const inputDomain = [1, 2, 3, 5, 10, 15];
