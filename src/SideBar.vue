@@ -1,7 +1,7 @@
 <template>
   <div class="side-bar" id="sideBar">
     <ul class="shootings">
-      <li class="shooting" v-for="shooting in shootings">
+      <li class="shooting" v-for="shooting in shootings" @click.prevent="clickHandle(shooting)">
         <div class="shooting-date">{{ shooting.date | DateFilter }}</div>
         <div class="shooting-location">{{ shooting.city }}, {{ shooting.state }}</div>
         <div class="shooting-summary">{{ shooting.summary }}</div>
@@ -23,6 +23,11 @@ export default {
       msg: 'Hello Vue!'
     }
   },
+  methods: {
+  	clickHandle: function(shooting) {
+  		this.$dispatch("onShootingClick", shooting);
+  	}
+  },
   filters: { DateFilter },
   props: {
     "shootings": {
@@ -40,8 +45,11 @@ body {
 
 .shootings {
   list-style: none;
-  padding: 0;
+  padding: 0 20px 0 0;
   margin: 0 0 0 20px;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .shooting {
@@ -49,6 +57,7 @@ body {
   margin: 0 0 30px 0;
   border: 1px solid black;
   border-width: 0 0 1px 0;
+  cursor: pointer;
 }
 
 .shooting-date {

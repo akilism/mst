@@ -13,6 +13,11 @@ import shootingsJson from "../assets/shootings.json";
 
 export default {
   components: { Map, SideBar },
+  events: {
+  	onShootingClick: function(shooting) {
+  		this.$broadcast("viewShooting", shooting);
+  	}
+  },
   data () {
     return {
       shootings: shootingsJson.shootings
