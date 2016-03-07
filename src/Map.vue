@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Map</h1>
     <div class="map-holder" id="map"></div>
   </div>
 </template>
@@ -70,7 +69,7 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-#map { height: 480px; }
+#map { height: 480px; width: 50vw;}
 
 .state-feature:hover {
   fill-opacity: 0.65;

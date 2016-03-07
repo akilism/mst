@@ -25,4 +25,10 @@ export default {
 body {
   font-family: Helvetica, sans-serif;
 }
+
+#app {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 </style>
