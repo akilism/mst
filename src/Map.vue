@@ -104,6 +104,10 @@
 	    			acc[state].ruralPct = 100 - acc[state].urbanPct;
 	    			acc[state].gunLobby = Math.round(Math.random() * 50);
 	    			acc[state].gunControl = Math.round(Math.random() * 50);
+	    			acc[state].donations = {
+	    				state: (Math.random() * 10000000).toFixed(2),
+	    				federal: (Math.random() * 10000000).toFixed(2)
+	    			};
 	    		}
 
 	    		return acc;

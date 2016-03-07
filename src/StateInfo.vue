@@ -10,7 +10,7 @@
 			<ul class="info-list">
 				<li>{{activeState.ruralPct}}% in Rural Counties</li>
 				<li>{{activeState.urbanPct}}% in Urban Counties</li>
-				<li>{{activeState.gunLobby}} out of 52 in Gun Lobby Donations</li>
+				<li class="donations" @mouseover="donationDetail(activeState.donations)">{{activeState.gunLobby}} out of 52 in Gun Lobby Donations</li>
 				<li>{{activeState.gunControl}} out of 52 in Gun Control Legislation</li>
 			</ul>
 		</div>
@@ -48,6 +48,10 @@
 			clickHandle: function(shooting) {
 				this.setShooting(shooting);
 				this.$dispatch("onShootingClick", shooting);
+			},
+			donationDetail: function(donations) {
+				console.log(donations.federal);
+				console.log(donations.state);
 			}
 		},
 		props: {
@@ -123,5 +127,10 @@
 
 	.info-list {
 		width: 40%;
+	}
+
+	.info-list .donations {
+		text-decoration: underline;
+		cursor: pointer;
 	}
 </style>
