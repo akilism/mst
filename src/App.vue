@@ -54,14 +54,14 @@
 
 	.hero-image {
 		display: none;
-		margin: 10px 0 30px 0;
+		margin: 10px auto 30px auto;
 	}
 
 	.right {
-		 width: 48vw;
+		width: 48vw;
 	}
 
 	.left {
-		 width: 50vw;
+		width: 50vw;
 	}
 </style>
