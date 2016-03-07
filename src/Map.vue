@@ -136,6 +136,10 @@
 <style>
 	#map { height: 480px; width: 100%;}
 
+	.state-feature {
+		transition: fill-opacity 150ms;
+	}
+
 	.state-feature:hover {
 	  fill-opacity: 0.65;
 	}
