@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-  	<img class="hero-image" src="https://vice-images.vice.com/images/articles/crops/2016/02/01/introducing-the-vice-2016-mass-shooting-tracker-1454367077-crop_desktop.jpg?resize=*:*&output-quality=75">
+  	<img class="hero-image" src="https://vice-images.vice.com/images/articles/crops/2016/02/01/introducing-the-vice-2016-mass-shooting-tracker-1454367077-crop_desktop.jpg?output-quality=75">
 	  <div class="left">
 	    <map v-bind:shootings="shootings"></map>
 	    <state-info v-bind:shootings="shootings"></state-info>
@@ -49,14 +49,16 @@
 	  display: flex;
 	  justify-content: flex-start;
 	  align-items: flex-start;
+	  flex-wrap: wrap;
 	}
 
 	.hero-image {
 		display: none;
+		margin: 10px 0 30px 0;
 	}
 
 	.right {
-		 width: 50vw;
+		 width: 48vw;
 	}
 
 	.left {
