@@ -80,7 +80,13 @@
 	.state-info {
 		padding: 10px 0 20px 20px;
 		background-color: #E0E0E0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 	}
+
+  .state-info h2 {
+    font-size: 42px;
+    margin: 10px 0;
+  }
 
 	.state-info ul {
 		margin: 0;
@@ -103,6 +109,7 @@
     width: 30%;
     cursor: pointer;
     transition: background-color 200ms;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 	}
 
 	.shooting-incidents .incident:nth-child(odd) {

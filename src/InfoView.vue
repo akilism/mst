@@ -81,8 +81,7 @@
     border: 1px solid black;
     background-color: white;
     z-index: 1000;
-    border-radius: 3px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   }
 
   .info-view .X {
@@ -108,9 +107,11 @@
   }
 
   .info-bar {
-    height: 30px;
+    height: 15px;
     background-color: black;
-    border-radius: 3px;
+    border-radius: 2px;
     margin-bottom: 30px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
   }
+
 </style>

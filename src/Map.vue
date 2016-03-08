@@ -154,7 +154,11 @@
 
 
 <style>
-	#map { height: 480px; width: 100%;}
+	#map {
+    height: 480px;
+    width: 100%;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.35);
+  }
 
 	.state-feature {
 		transition: fill-opacity 150ms;
