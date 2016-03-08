@@ -22,8 +22,8 @@
 	export default {
 	  components: { Map, SideBar, StateInfo },
 	  events: {
-	  	onShootingClick: function(shooting) {
-	  		this.$broadcast("viewShooting", shooting);
+	  	onShootingClick: function(shooting, zoom) {
+	  		this.$broadcast("viewShooting", shooting, zoom);
 	  	}
 	  },
 	  data () {
@@ -36,6 +36,20 @@
 
 
 <style>
+  @font-face {
+    font-family: 'TradeGothic-BoldCondTwenty';
+    src: url('../assets/fonts/TradeGothic/BoldCondTwenty/TradeGothic-BoldCondTwenty.eot'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/TradeGothic/BoldCondTwenty/TradeGothic-BoldCondTwenty.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/TradeGothic/BoldCondTwenty/TradeGothic-BoldCondTwenty.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/TradeGothic/BoldCondTwenty/TradeGothic-BoldCondTwenty.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/TradeGothic/BoldCondTwenty/TradeGothic-BoldCondTwenty.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/TradeGothic/BoldCondTwenty/TradeGothic-BoldCondTwenty.svg') format('svg'); /* Legacy iOS */
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
 	body {
 	  font-family: Helvetica, sans-serif;
 	  font-size: 14px;
@@ -59,9 +73,11 @@
 
 	.right {
 		width: 48vw;
+    flex: 1;
 	}
 
 	.left {
 		width: 50vw;
+    flex: 1;
 	}
 </style>

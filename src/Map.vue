@@ -44,14 +44,23 @@
 	  data() {
 	    return {
 	      $map: null,
-	      stateData: null
+	      stateData: null,
+        markers: {}
 	    }
 	  },
 		events: {
-			"viewShooting": function(shooting) {
+			"viewShooting": function(shooting, zoom) {
 				const pos = [shooting.location.lat, shooting.location.lng];
-				this.$map.setView(pos, 7);
-				L.marker(pos).addTo(this.$map);
+				const data = this.stateData[shooting.state];
+        zoom = zoom || 4;
+        this.$map.setView(pos, zoom);
+
+        //only add markers once.
+        if(!this.markers[shooting.id]) {
+          this.markers[shooting.id] = L.marker(pos).addTo(this.$map);
+        }
+
+        this.setState({ ...data, NAME10: shooting.state });
 			}
 		},
 	  methods: {
@@ -74,7 +83,7 @@
 	        	onEachFeature: (feature, layer) => {
 	        		const data = this.stateData[feature.properties.NAME10];
 		        	layer.on("mouseover", () => {
-								this.setState({...feature.properties, ...data});
+								this.setState({ ...feature.properties, ...data });
 							});
 	        	}
 	        });
@@ -85,6 +94,12 @@
 	        console.error(err);
 	      });
 	    },
+      getRandomDonation: function(count) {
+        if(Math.random() > Math.random()) {
+          return (Math.random() * count);
+        }
+        return this.getRandomDonation(++count);
+      },
 	    buildStateData: function(shootings) {
 	    	return shootings.reduce((acc, shooting, i) => {
 	    		const state = shooting.state;
@@ -105,8 +120,8 @@
 	    			acc[state].gunLobby = Math.round(Math.random() * 50);
 	    			acc[state].gunControl = Math.round(Math.random() * 50);
 	    			acc[state].donations = {
-	    				state: (Math.random() * 10000000).toFixed(2),
-	    				federal: (Math.random() * 10000000).toFixed(2)
+	    				state: this.getRandomDonation(100000),
+	    				federal: this.getRandomDonation(100000)
 	    			};
 	    		}
 

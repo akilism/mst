@@ -6,3 +6,7 @@ export const setShooting = ({ dispatch }, shooting) => {
 export const setState = ({ dispatch }, state) => {
 	dispatch("SETSTATE", state);
 };
+
+export const setInfo = ({ dispatch }, state) => {
+  dispatch("SETINFO", state);
+};

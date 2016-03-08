@@ -43,11 +43,11 @@
 <style>
 	.shootings {
 	  list-style: none;
-	  margin: 0;
+	  margin: 0 -15px 0 0;
 	  padding: 0 10px;
 	  position: fixed;
 	  height: 100vh;
-	  overflow-y: auto;
+    overflow-y: scroll;
 	}
 
 	.shooting {

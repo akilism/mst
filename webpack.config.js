@@ -31,6 +31,14 @@ module.exports = {
         loader: 'vue-html'
       },
       {
+        test: /\.(otf|eot|woff2?|ttf)$/,
+        loader: 'url',
+        query: {
+          limit: 10000,
+          name: '[name].[hash].[ext]',
+        },
+      },
+      {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'url',
         query: {

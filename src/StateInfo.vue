@@ -1,5 +1,5 @@
 <template>
-	<div class="state-info" v-if="activeState.NAME10">
+	<div class="state-info" v-if="activeState">
 		<h2>{{activeState.NAME10}}</h2>
 		<div class="info-lists">
 			<ul class="info-list">
@@ -10,7 +10,7 @@
 			<ul class="info-list">
 				<li>{{activeState.ruralPct}}% in Rural Counties</li>
 				<li>{{activeState.urbanPct}}% in Urban Counties</li>
-				<li class="donations" @mouseover="donationDetail(activeState.donations)">{{activeState.gunLobby}} out of 52 in Gun Lobby Donations</li>
+				<li class="donations" @click.prevent="donationDetail(activeState)">{{activeState.gunLobby}} out of 52 in Donations from Gun Interests</li>
 				<li>{{activeState.gunControl}} out of 52 in Gun Control Legislation</li>
 			</ul>
 		</div>
@@ -25,15 +25,17 @@
 			</li>
 		</ul>
 	</div>
-
+  <info-view></info-view>
 </template>
 
 
 <script>
 	import DateFilter from './filters/DateFilter';
-	import { setShooting } from "./state/actions";
+  import InfoView from './InfoView.vue';
+	import { setShooting, setInfo } from "./state/actions";
 
 	export default {
+    components: { InfoView },
 		computed: {
 			stateShootings: function () {
 				if(!this.activeState) { return []; }
@@ -47,11 +49,13 @@
 		methods: {
 			clickHandle: function(shooting) {
 				this.setShooting(shooting);
-				this.$dispatch("onShootingClick", shooting);
+				this.$dispatch("onShootingClick", shooting, 7);
 			},
-			donationDetail: function(donations) {
+			donationDetail: function(activeState) {
+        const donations = activeState.donations;
 				console.log(donations.federal);
 				console.log(donations.state);
+        this.setInfo({ donations, title: `Campaign Donations to ${activeState.NAME10} from Gun Interests`, type: "BAR", key: "donations" });
 			}
 		},
 		props: {
@@ -61,7 +65,7 @@
 			}
 		},
 		vuex: {
-			actions: { setShooting },
+			actions: { setShooting, setInfo },
 			getters: {
 				activeState: ({ activeState }) => {
 					return activeState;
@@ -89,14 +93,14 @@
 		justify-content: flex-start;
 		align-content: flex-start;
 		flex-wrap: wrap;
-		margin: 0 0 0 -10px;
+		margin: 0 0 0 -20px;
 	}
 
 	.shooting-incidents .incident {
 		margin: 5px;
     background-color: #bebebe;
     padding: 20px;
-    width: 25%;
+    width: 30%;
     cursor: pointer;
     transition: background-color 200ms;
 	}
