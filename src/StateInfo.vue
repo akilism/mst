@@ -4,8 +4,8 @@
 		<div class="info-lists">
 			<ul class="info-list">
 				<li>Mass Shootings: {{activeState.shootings}}</li>
-				<li>Killed: {{activeState.killed}}</li>
-				<li>Injured: {{activeState.injured}}</li>
+				<li>{{activeState.killed}} Dead</li>
+				<li>{{activeState.injured}} Injured</li>
 			</ul>
 			<ul class="info-list">
 				<li>{{activeState.ruralPct}}% in Rural Counties</li>
@@ -19,8 +19,8 @@
 				<h3 class="incident-location">{{ shooting.city }}, {{ shooting.state }}</h3>
 				<div class="incident-date">{{ shooting.date | DateFilter }}</div>
 				<ul>
-					<li>Killed: {{ shooting.killed }}</li>
-					<li>Injured: {{ shooting.injured }} </li>
+					<li>{{ shooting.killed }} Dead</li>
+					<li>{{ shooting.injured }} Injured</li>
 				</ul>
 			</li>
 		</ul>

@@ -2,8 +2,8 @@
   <div class="side-bar" id="sideBar">
     <ul class="shootings">
       <li class="shooting" v-for="shooting in shootings" @click.prevent="clickHandle(shooting)">
+        <h2 class="shooting-date">{{ shooting.date | DateFilter }}</h2>
         <h3 class="shooting-location">{{ shooting.city }}, {{ shooting.state }}</h3>
-        <div class="shooting-date">{{ shooting.date | DateFilter }}</div>
         <ul class="shooting-stats">
           <li>{{ shooting.killed }} Dead</li>
           <li>{{ shooting.injured }} Injured</li>
@@ -63,22 +63,23 @@
 	}
 
 	.shooting-date {
-	  margin: 0 0 15px 0;
-	  font-size: 13px;
+	  margin: 0 0 0 0;
+	  // font-size: 13px;
 	}
 
 	.shooting-location {
-	  margin: 0;
+	  margin: 0 0 15px 0;
 	}
 
 	.shooting-summary {
 	  text-indent: 2rem;
 	  margin: 0;
+	  font-size: 14px;
 	}
 
 	.shooting-stats {
 	  list-style: none;
-	  margin: 0 0 10px 0;
+	  margin: 0 0 15px 0;
 	  padding: 0;
 	}
 </style>

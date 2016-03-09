@@ -136,7 +136,7 @@
 	    }
 	  },
 	  ready() {
-	    this.$map = L.map(this.$el.querySelector("#map")).setView([40.918341, -97.472751], 4);
+	    this.$map = L.map(this.$el.querySelector("#map")).setView([39.018341, -97.472751], 4);
 	    L.tileLayer("http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png", {
 	      attribution: `&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>`,
 	      subdomains: "abcd",
@@ -155,10 +155,18 @@
 
 <style>
 	#map {
-    height: 480px;
+    height: 380px;
     width: 100%;
     box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.35);
   }
+
+
+	@media only screen and (min-height : 810px) {
+    #map {
+    	height: 480px;
+    }
+	}
+
 
 	.state-feature {
 		transition: fill-opacity 150ms;
